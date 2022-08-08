@@ -4,114 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component  Library</title>
+    <title>home | adarsh balika</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1> harshal componenet library</h1>
-    <p>I am attending neog.camp and i want to make a library which would make alll my projects loook good and consistent.</p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>biggest text</h1>
-    <h2>second biggest text</h2>
-    <p>Let me show the normal text. This is free  flowing and will wrap at the end like a paragraph.</p>
-    <small>This is relatively small text.</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container ">This is a fluid container and it will go till the end of the page.</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a center container and it will go till the specified width.</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link primary-link" href="/">primary Link</a>
-    <a class="link secondary-link" href="/">secondary link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>UNORDERED LIST</h3>
-    <ul>
-        <li>babana</li>
-        <li>apple</li>
-        <li>grapes</li>
-    </ul>
-
-    <h3>unorderreed inline list</h3>
-    <ul>
-        <li>Inline item one </li>
-        <li>Inline item two</li>
-        <li>Inline Item three</li>
-    </ul>
-
-    <h2>ORDERED LIST</h2>
-    <ol>
-        <li>watermelon</li>
-        <li>pinapple</li>
-        <li>apple</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
-    <nav>
-        <div>I am a brand</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <!-- nav -->
+    <nav class="navigation container">
+        <div class="nav-brand">IamADeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/index.html">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@header</h2>
-    <header>
-        <img src="images/heroImg.svg" alt="">
-        <h2>Heading inside hero</h2>
+    <!-- HEADER -->
+    <header class="hero">
+        <img class="hero-img" src="images/heroImg.svg" alt="">
+        <h2 class="hero-heading">adarsh balika the <span>web developer</span></h2>
     </header>
 
-    <hr>
+    <!-- off white section -->
 
 
-    <h2>@section</h2>
-
-    <section>
-        <h2>white section</h2>
-        <p>This will have white background</p>
-    </section>
-    <section>
-        <h2>off white section</h2>
-        <p>This will have off white background section.</p>
+    <section class="section bg">
+        <div class="container-center">
+            <h2>Technologies</h2>
+        <p>I am familiar with <strong>HTML5, CSS, JavaScript, Node JS, Express Js, React JS and Web Hosting.</strong>.</p>
+        </div>
     </section>
 
-    <hr>
 
-    <h2>@footer</h2>
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
+    <section class="section">
+        <div class="container-center">
+            <h2>Projects</h2>
+            <p>I like to showcase my work and thus you can see my projects hosted online.</p>
+            <a class="link primary-link" href="/projects.html">See Projects</a>
+        </div>
+    </section>
+
+    <section class="section bg">
+        <div class="container-center">
+            <h2>Blogs</h2>
+        <p>I am also working on some technical and non-technical bogs. I like to document my journey og learning.</p>
+        
+        <a class="link secondary-link" href="/blogs.html">Browse Blogs</a>
+    </div>
+    </section>
+    <!-- footer -->
+
+    <footer class="footer container">
+        <div class="footer-header">Social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/HarshalDongare004"><i class="fa-brands fa-github"></i>  Github</a> </li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/harshaldongre11"><i class="fa-brands fa-twitter"></i>  Twitter</a> </li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/harshal-dongare-52b938144/"><i class="fa-brands fa-linkedin"></i>  Linkedin</a></li>
+            
         </ul>
     </footer>
 </body>

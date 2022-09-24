@@ -4,7 +4,14 @@ body {
   font-family: "Montserrat", sans-serif;
 margin: 0px;
 
+
+  
+    min-width: 505px;
+    max-width: 750px;
+    margin: auto;
 }
+
+
 :root{
     --primary-color: #0284c7;
     --dark-gray: rgb(119, 117, 117);
@@ -67,6 +74,7 @@ margin: 0px;
    color: #fff;
    padding: 1rem;
    border-bottom-left-radius: 1rem;
+   margin-bottom: 2rem;
 
 }
 .navigation .link{
@@ -94,7 +102,8 @@ margin: 0px;
 
 
 .hero .hero-img{
-  max-width: 350px;
+  max-width: 250px;
+  
   display: block;
   margin: auto;
 }
@@ -154,5 +163,5 @@ width: 50%;
 }
 
 img:hover{
-  transform: scale(2);
+  transform: scale(1.5);
 }
